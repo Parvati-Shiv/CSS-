@@ -1,0 +1,104 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+html,body
+{
+    width: 100%;
+}
+
+section 
+{
+    background-color: rgba(190, 187, 187, 0.384);
+    height: 500px;
+ 
+}
+
+.Heading
+{
+    text-align: center;
+    line-height: 40px;
+}
+
+
+.main
+{
+    width: 80%;
+   
+    height: 350px;
+    margin:10px auto;
+    display: flex;
+   
+
+    
+}
+
+.w30-Parent
+{
+    height:100%;
+    width: 30%;
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+
+}
+.w60-Parent
+{
+   
+    width: 60%;
+    height:100%;
+    margin-left:50px;
+    background-color: white;
+}
+
+.child
+{
+   
+    text-align: center;
+}
+
+.w60-Parent input[name="Name"]
+{
+    width:40%;
+  height: 30px;
+  margin: 20px 30px;
+}
+
+.w60-Parent input[name="Email"]
+{
+    width:40%;
+  height: 30px;
+ margin-top: 20px;
+ margin-bottom:20px ;
+
+}
+
+.w60-Parent input[name="Subject"]
+{
+    width:86%;
+  height: 40px;
+  margin-left: 30px;
+ 
+ 
+}
+
+.w60-Parent textarea[name="Textarea"]
+{
+    margin-left: 30px;
+
+}
+
+.w60-Parent button[type="submit"]
+{
+margin-left: 250px;
+padding: 10px 30px;
+border-radius: 10px;
+background-color: rgba(8, 192, 8, 0.644);
+}

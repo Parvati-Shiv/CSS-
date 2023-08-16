@@ -1,0 +1,68 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  serif;
+}
+
+html,body
+{
+    width: 100%;
+}
+
+section
+{
+    background-color: rgba(218, 66, 28, 0.637);
+    width: 300px;height: 500px;
+    border-radius: 30px;
+
+    margin: 50px auto;
+    color: white;
+    text-align: center;
+
+
+  
+}
+
+.Para
+{
+    padding-top: 40px;
+}
+
+.Para2
+{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+span
+{
+    font-size: xx-large;
+}
+
+sup{
+    font-size: larger;
+}
+
+ul  li
+{
+   text-decoration: none;
+   padding: 10px;
+}
+
+button
+{
+    padding:20px 40px;
+    margin-top: 40px;
+    color: white;
+    /* box-shadow: 10px 30px 40px 20px rgba(255, 255, 255, 0.26); */
+    
+    border:1px solid white;
+    border-radius: 5px;
+    background-color: rgba(218, 66, 28, 0);
+   
+    outline: none;
+    outline-offset: none;
+}
+

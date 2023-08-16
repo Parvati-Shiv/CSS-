@@ -1,0 +1,62 @@
+section
+{
+    width: 379px;
+    height: 308px;
+    margin: 50px auto;
+    position:relative;
+}
+
+body
+{
+    background-color: grey;
+}
+
+section img
+{
+    height: 100%;
+    width: 100%;
+}
+
+
+.name
+{
+    height:0%;
+    width: 100%;
+    position:absolute;
+    bottom :0px;
+    background-color: rgba(128, 128, 128, 0.267);
+    transition: height .3s .2s ;
+    overflow: hidden;
+    padding :10px;
+    text-align: center;
+
+    position: absolute;
+    left: 50px;
+    right: 0;
+    bottom: 0;
+    transition: bottom 0.4s;
+}
+
+section:hover .name
+{
+    bottom:25%;
+}
+
+.social
+{
+    width: 0%;
+    height:100%;
+    position:absolute;
+    left :0px;
+    bottom:0px;
+    top:0px;
+    background-color: rgba(128, 128, 128, 0.671);
+    transition: width .3s .2s ;
+    overflow: hidden;
+    padding :10px;
+
+}
+section:hover .social
+{
+    width:10%;
+}

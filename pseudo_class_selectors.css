@@ -1,0 +1,87 @@
+/* section h1
+{
+    color:red;
+
+} */
+
+section h1:first-child
+{
+    color:red;
+}
+
+section h1:last-child
+{
+    color:red;
+}
+
+section h1:nth-child(3)
+{
+    color:red;
+}
+
+ p
+{
+    font-size:50px;
+}
+/* Pseudo Element  selectors :: */
+
+p::first-letter
+{
+    
+    color:blue;
+}
+.fa-whatsapp
+{
+    font-size: 100px;
+    color:green;
+}
+
+.fa-instagram{
+    font-size: 100px;
+    color:hotpink;
+}
+
+
+p::first-line
+{
+    color:blueviolet
+}
+input {
+    padding:10px;
+
+    font-size: 50px;
+}
+
+input::placeholder
+{
+    color:green;
+    text-align: center;
+}
+
+::selection
+{
+    background-color: red;
+    color:yellow;
+}
+
+input
+{
+    outline-style: none;
+}
+
+input:valid
+{
+    border :5px solid green;
+}
+
+input:invalid
+{
+    border :5px solid red;
+}
+
+
+
+
+
+
+

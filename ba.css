@@ -1,0 +1,22 @@
+p{
+    height: 200px;
+    width: 600px;
+    border:1px solid red;
+    color:blue;
+    text-align:center;
+    vertical-align: center;
+}
+
+p::before
+{
+    content: "MY  NAME IS ";
+    Color:black;
+    font-size: 30px;
+}
+
+p::after
+{
+    content: " Developer ";
+    Color:green;
+    font-size: 30px;
+}

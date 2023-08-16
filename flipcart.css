@@ -1,0 +1,320 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body
+{
+    width: 100%;
+}
+
+.firsthalf
+{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(58, 58, 216);
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+   
+
+
+}
+
+.firsthalf .logo
+{
+    width: 110px;
+    height: 40px;
+    /* border:1px solid red; */
+
+    margin-left: 130px;
+ 
+    
+   
+}
+
+.firsthalf .logo .img
+{
+    width: 100px;
+    height: 20px;
+
+    
+   
+}
+
+.firsthalf .logo  .img img
+{
+    width: 100%;
+    height: 100%;
+    color:white;
+    background-color: aliceblue;
+}
+
+.firsthalf .logo a
+{
+    font-size: 13px;
+    font-style: italic;
+    color:white;
+
+}
+.firsthalf .logo a span
+{
+    font-size: 15px;
+    color:yellow;
+    font-style: italic;
+
+}
+.secondhalf
+{
+    width:100%;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+section
+{
+    width:100%;
+    height: 300px;
+    /* background-color: rgba(128, 128, 128, 0.842); */
+}
+
+.main{
+    width: 100%;
+    height:300px;
+    /* display: flex; */
+    margin:0px auto;
+    justify-content: end;
+
+   
+}
+
+.main .button-left
+{
+    width: 50px;
+    height: 120px;
+    background-color: white;
+    font-size: 70px;
+    
+
+  
+
+   
+}
+
+.main .button-right
+{
+    width: 50px;
+    height: 120px;
+  
+    font-size: 70px;
+    font-weight: 100000;
+  
+   
+    /* text-align: center; */
+
+
+
+   
+}
+
+.main .button-left button
+{
+    width: 50px;
+    height: 120px;
+    position:relative;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border:none;
+
+    position:relative;
+
+    bottom: 208px;
+}
+.main .button-right button
+{
+    width: 50px;
+    height: 120px;
+    position:relative;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border:none;
+
+   
+    bottom:  318px;
+    right: -1310px;
+}
+
+.img{
+
+    width:98%;
+    height: 100%;
+
+
+}
+
+.main .img img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.button
+{
+    width:40px;
+    height:80px;
+    background-color: white;
+}
+
+.text
+{
+    height: 40px;
+    width: 500px;
+    /* border :1px solid red; */
+    display:flex;
+  
+
+}
+
+.fa-search
+{
+    color:blue;
+    font-size: 20px;
+    position :relative;
+
+    right:30px;
+    top:10px;
+}
+
+.text input
+{
+    height:100%;
+    width:100%;
+    border:none;
+    outline: none;
+}
+
+.button
+{
+    width:150px;
+    height:40px;
+    /* border:1px solid red; */
+    text-align: center;
+}
+
+.button button
+{
+    width:100%;
+    height: 100%;
+
+}
+
+.content
+{
+    width:120px;
+    height: 40px;
+    color:white;
+    font-size:17px;
+    padding: 8px;
+
+}
+
+
+
+.select select 
+{
+    background-color:transparent;
+    color:white;
+    border:none;
+    font-size: 17px;
+    font-weight:800;
+}
+
+.cart
+{
+    width: 100px;
+    height: 40px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    
+    
+
+}
+
+.cart-icon
+
+{
+    width:30px;
+    height:40px;
+    font-size: 20px;
+    color:white;
+}
+
+.cart  span
+{   
+    width:70%;
+    height: 40px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+   
+    color:white;
+
+}
+
+.items
+{
+   width:130px;
+   height:120px; 
+   /* border:1px solid red; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.items .item-img{
+    width:130px;
+    height:100px;
+}
+
+.items .item-img img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.items  a
+
+{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 900;
+    color:grey;
+    text-decoration: none;
+
+}
+
+.h :hover
+{
+    color:aqua;
+}
+
+.ano{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+
+
+

@@ -1,0 +1,251 @@
+*
+{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: serif;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+
+/* Nav Starts Here */
+
+nav
+{
+    /* border:3px solid red; */
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    position:sticky;
+    top:0;
+    background-color: white;
+   /* text-align: center; */
+   /* padding-top: 30px;
+   padding-bottom: 30px; */
+padding: 20px;
+box-shadow: 2px 0px 30px 10px rgba(225, 219, 219, 0.333);
+
+
+}
+
+nav .Nav-Logo
+{
+    /* border:3px solid purple;  */
+    text-decoration: none;
+    font-family: raleway;
+    color: #24325d;
+    font-size: 30px;
+    font-weight:bold;
+    margin-left: 130px;
+    /* text-align: center; */
+}
+
+nav ul 
+{
+    /* border:3px solid green;   */
+    display: inline;
+    margin-left: 320px;
+}
+
+nav ul li 
+{
+    /* border: 3px solid yellow; */
+    display: inline-block;
+    margin-left:30px;
+    color: #24325d;
+   
+  
+
+
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    transition: 0.3s;
+}
+nav ul li a:hover
+{
+    color: #007aff;
+
+}
+
+/* Nav Ends Here */
+
+
+
+
+.heading
+{
+    height:90px;
+    width:100%;
+    background-color: rgba(4, 4, 83, 0.082); 
+     display: flex;
+     justify-content: start;
+     align-items: center;
+}
+
+.heading h1
+{
+    font-weight: 200;
+    margin-left: 90px;
+}
+
+.heading a
+{
+    margin-left:900px;
+    text-decoration: none;
+        
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    transition: 0.3s;
+}
+
+.heading a:hover{
+    color: #007aff;
+}
+
+.heading p
+{
+  font-weight: 400;
+  height:600px;
+}
+
+
+
+
+
+.events-main
+{
+    background-color: white;
+    margin:50px auto;
+    /* border:2px solid red; */
+    display: flex;
+    width:90%;
+    justify-content: space-between;
+    /* height: 500px; */
+    /* overflow: hidden; */
+
+
+    
+}
+
+.events-main div 
+{  
+    /* border:2px solid blue; */
+    /* display: flex; */
+    width: 48%;
+    
+    height: 100%;
+   
+  
+
+    
+}
+
+
+.events-main div .event-image 
+{
+    width: 100%;
+    overflow: hidden;
+    height: 60%;
+   
+
+}
+
+.events-main div .event-image img
+{
+    width: 100%;
+    height: 100%;
+    transition: all .4s;
+    /* overflow: hidden; */
+    
+}
+
+.events-main div .card
+{
+    width: 80%;
+    padding:30px;
+    text-align: center;
+    background-color: white;
+   /* border:1px solid yellow; */
+   position: relative;
+   top:-50px;
+   left:80px;
+}
+.events-main div:hover img
+{
+   transform: scale(1.1);
+
+}
+
+/* Footer starts */
+
+.foot
+{
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    text-align: center;
+    height:auto;
+    
+
+   background-color: #24325d;
+
+}
+
+.foot h1
+{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color:white;
+}
+
+.foot p
+{
+    margin-bottom: 50px;
+    color: white;;
+}
+
+.foot .main-foot 
+{
+ display:flex;
+ flex-direction: row;
+ justify-content: center;
+ margin-bottom: 20px;
+
+
+}
+
+.foot .main-foot .icon
+{
+   width:50px;
+   font-size: 20px;
+   margin-left: 10px;
+   height: 50px; 
+   background-color: #007aff;
+   border-radius: 100% 100%;
+   color:white;
+   padding: 15px;
+}
+
+.foot pre
+{
+    margin-bottom: 20px;
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.foot pre span
+{
+    color:#007aff;
+}
+
+

@@ -1,0 +1,67 @@
+section
+{
+    width: 379px;
+    height: 308px;
+    margin: 50px auto;
+    position:relative;
+}
+
+body
+{
+    background-color: grey;
+}
+
+section img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.child
+{
+    height: 0%;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(255, 255, 255, 0.87);
+    display: flex;
+    justify-content: space-between;
+    transition: height .3s .2s;
+    overflow:hidden;
+}
+
+.child .content
+{
+    padding: px;
+    width: 50%;
+    height: 100%;
+}
+
+.child .icons
+{
+    padding: 20px;
+    width: 30%;
+    height: 100%;
+    text-align: right;
+}
+
+.fa-search{
+    font-size: 30px;
+    color:black;
+}
+.fa-link
+{
+    font-size:30px;
+    color:black;
+}
+
+.child .icons i
+{
+    margin-left: 10px;
+}
+
+section:hover .child
+{
+    height: 35%;
+}
+

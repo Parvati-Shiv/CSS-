@@ -1,0 +1,346 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body
+{
+    width:100%;
+
+}
+
+.firsthalf
+{
+    height: 60px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    /* justify-content: space-around; */
+    background-color: black;
+}
+
+/* Logo */
+
+.firsthalf .logo
+{
+    height: 60px;
+    width:120px;
+    /* border: 1px solid red; */
+    margin-left:10px;
+
+}
+
+.firsthalf .logo img
+{
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.location-icon
+{
+    color:white;
+    font-size: 30px;
+    
+}
+
+.location
+{
+  height:60px;
+  width: 200px;
+  /* border: 1px solid red; */
+  display: flex;
+  margin-left:10px;
+
+
+}
+
+.location .icon i
+{
+
+    margin-top: 10px;
+
+
+}
+
+.location .icon 
+{
+    height: 60px;
+    width: 15%;
+    /* border: 1px solid blue; */
+}
+
+.location .loc-content
+{
+    height: 60px;
+    width:80%;
+    color:white;
+    /* border: 1px solid red; */
+}
+
+.location .loc-content h3
+{
+    font-size: 15px;
+}
+
+.location .loc-content h5
+{
+    margin-top: 10px;
+}
+
+.search
+{
+    height: 50px;
+    width: 600px;
+   
+    margin-top: 5px;
+    display: flex;
+    margin-left:20px;
+   
+
+}
+
+.search-icon
+{
+    font-size:15px;
+    font-weight: bold;
+
+}
+.search select
+{
+    height: 49px;
+    width: 50px;
+    background-color:gray;
+    border: none;
+
+}
+
+
+.search input::placeholder
+{
+    font-size: 20px;
+    
+   
+}
+
+
+.flag-container
+{
+    height: 50px;
+    width:60px ;
+    margin-left: 20px;
+    
+    margin-top: 5px;
+    display: flex;
+}
+
+.flag-container .flag-icon
+{
+    height:40px;
+    width:40%;
+    margin-top: 5px;
+
+}
+
+.flag-container .flag-icon img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.fa-cart-plus
+{
+    color:white;
+    font-size:40px;
+}
+
+.flag-container .flag-select
+{
+    height:50px;
+    width: 60%;
+    
+}
+
+.flag-container .flag-select select
+{
+    height: 30px;
+    margin-top: 10px;
+    width:40px;
+    background-color: black;
+    color:white;
+    border:none;
+}
+
+.list-container
+{
+    width:130px;
+    height:60px;
+  
+   
+    margin-left:40px;
+    margin-top: 5px;
+    padding: 5px;
+    /* border:1px solid red; */
+}
+
+
+.list-container .list-content span
+{
+    color:white;
+    /* background-color: black;*/
+    font-size: 15px;
+} 
+
+.list-container .list select
+{
+    width:120px;
+    height: 25px;
+    background-color: transparent;
+    color:white;
+    font-size: 12px;
+    font-weight: bolder;
+    border:none;
+    
+
+}
+
+.b:hover
+{
+    border:2px solid white;
+
+}
+
+.cart
+{
+    width: 80px;
+    height: 60px;
+    display:flex;
+    margin-left: 20px;
+    
+
+}
+
+.cart-icon
+
+{
+    width:60%;
+    height:60px;
+    font-size: 50px;
+}
+
+.cart  span
+{
+    font-weight: bold;
+    margin-top: 20px;
+    color:white;
+
+}
+
+.w70
+{
+    width: 70%;
+    height:40px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: -160px;
+}
+
+
+.w30
+{
+    width: 20%;
+    height:40px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.search input
+{
+    height:48px;
+    padding-left: 35px;
+    width: 90%;
+    border: none;
+    outline: none;
+    
+
+}
+
+.search button
+{
+    height: 49px;
+    width: 50px;
+    background-color: orange;
+    border: none;
+}
+
+
+
+
+.secondhalf
+{
+    height: 50px;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    background-color:rgba(19, 30, 66);
+
+}
+
+.Box
+{
+    height:40px;
+    width:70px;
+    color:white;
+    text-align: center;
+}
+
+.Box1
+{
+    height:45px;
+    width:120px;
+    color:white;
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+}

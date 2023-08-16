@@ -1,0 +1,88 @@
+section
+{
+    width: 379px;
+    height: 308px;
+    margin: 50px auto;
+    position:relative;
+}
+
+body
+{
+    background-color: grey;
+}
+
+section img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.card
+{
+    height:0%;
+    width: 100%;
+    position:absolute;
+    bottom :0px;
+    background-color: rgba(128, 128, 128, 0.267);
+    transition: height .3s .2s ;
+    overflow: hidden;
+}
+
+
+
+.empty
+
+{
+    height:100%;
+    width: 0%;
+    background-color: rgba(128, 128, 128, 0.479);
+    position:absolute;
+    right:0px;
+    top:0px;
+    transition: width .3s .2s ;
+    overflow: hidden;
+
+}
+
+section:hover .empty
+{
+    width: 100%;
+}
+
+.icon
+{   
+    
+    height:0%;
+    width: 100%;
+    position:absolute;
+    top:0px;
+    background-color: rgba(128, 128, 128, 0.267);
+    transition: height .3s .2s ;
+    overflow: hidden;
+}
+
+section:hover .card 
+{
+    height: 50%;
+}
+
+section:hover .icon
+{
+    height: 50%;
+}
+
+i
+{
+   padding:20px;
+   text-align: center;
+}
+
+.fa-search{
+    font-size: 30px;
+    color:black;
+}
+.fa-link
+{
+    font-size:30px;
+    color:black;
+}
